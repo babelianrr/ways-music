@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FaTrash } from "react-icons/fa";
 import { LuPlus } from "react-icons/lu";
 import { MdOutlineLibraryMusic } from "react-icons/md";
 
@@ -24,7 +25,10 @@ export default function Sidebar() {
                     </Link>
                 </div>
                 <div className="">
-                    <div className="flex gap-2 items-center cursor-pointer mb-4 p-2 rounded-lg hover:bg-gray-800">
+                    <div className="flex relative gap-2 items-center cursor-pointer mb-4 p-2 rounded-lg hover:bg-gray-800 group">
+                        <button className="text-gray-200 absolute right-2 top-1/2 -translate-y-1/2 cursor-pointer hidden group-hover:block">
+                            <FaTrash />
+                        </button>
                         <Image
                             src="/images/cover.png"
                             alt="cover-image"
