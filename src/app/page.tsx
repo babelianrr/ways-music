@@ -1,4 +1,5 @@
 import MusicList from "./components/MusicList";
+import MusicPlayer from "./components/MusicPlayer";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
@@ -9,6 +10,7 @@ export default function Home() {
             <main>
                 <Sidebar />
                 <MusicList />
+                <MusicPlayer />
             </main>
         </div>
     );
