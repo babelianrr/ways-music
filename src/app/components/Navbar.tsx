@@ -18,8 +18,16 @@ export default function Navbar() {
                         className="w-10 h-10"
                     />
                 </Link>
+                <p className="hidden">
+                    <Link
+                        href="https://www.flaticon.com/free-icons/voice-message-app"
+                        title="voice message app icons"
+                    >
+                        Voice message app icons created by Flipicon - Flaticon
+                    </Link>
+                </p>
                 <div className="bg-gray-950 hidden lg:flex items-center h-11 w-90 px-3 gap-3 text-gray-100 rounded-full">
-                    <GoSearch className="text-gray-100 shrink-0" />
+                    <GoSearch className="text-gray-100 shrink-0" size={20} />
                     <input
                         className="h-full w-full outline-none placeholder:text-gray-100"
                         type="text"
