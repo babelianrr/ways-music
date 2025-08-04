@@ -4,7 +4,7 @@ export default function MusicList() {
     return (
         <div className="min-h-[90vh] bg-gray-950 my-15 p-4 lg:ml-80 rounded-lg mx-4">
             <h2 className="text-2xl text-white mb-3 font-semibold">
-                Music list goes here.
+                Discover Music
             </h2>
             <div className="grid gap-2 grod-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
                 <div className="bg-gray-950 p-3 cursor-pointer rounded-md hover:bg-gray-900">
