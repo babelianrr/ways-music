@@ -32,6 +32,14 @@ export default function Sidebar() {
                             height={300}
                             className="w-10 h-10 object-cover rounded-md"
                         />
+                        <p className="hidden">
+                            <Link
+                                href="https://www.flaticon.com/free-icons/music"
+                                title="music icons"
+                            >
+                                Music icons created by Freepik - Flaticon
+                            </Link>
+                        </p>
                         <div className="">
                             <p className="text-gray-100 font-semibold">
                                 Sample Title
